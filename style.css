@@ -1,0 +1,27 @@
+.sticky-header {
+    position: sticky;
+    /* Rather put the other div at a lower z-index, rather than increasing this one.
+    Cause problems with the help popup */
+    /* z-index: 999; */
+    top: -10px;
+}
+
+.colorSelection {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 4%;
+    margin-top: 2%;
+    vertical-align: middle;
+    fill: #333;
+}
+
+.coloredGuesses {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    /* margin-bottom: 2%; */
+    vertical-align: middle;
+    fill: #333;
+    z-index: -10;
+}
